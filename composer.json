@@ -1,0 +1,23 @@
+{
+  "name": "serhatozdal/php-java-optional",
+  "type": "library",
+  "description": "An implementation of Java8 Optional for PHP",
+  "keywords": ["php optional", "java optional", "php java optional"],
+  "homepage": "https://github.com/serhatozdal/php-java-optional",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Serhat ÖZDAL",
+      "email": "serhatozdal@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "serhatozdal\\optional\\": "src/serhatozdal/optional/"
+    }
+  }
+}
