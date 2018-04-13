@@ -15,9 +15,17 @@
   "require": {
     "php": ">=5.4.0"
   },
+  "require-dev": {
+    "phpunit/phpunit": "5.4.0"
+  },
   "autoload": {
     "psr-4": {
       "serhatozdal\\optional\\": "src/serhatozdal/optional/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "serhatozdal\\optional\\": "tests/serhatozdal/optional/"
     }
   }
 }
