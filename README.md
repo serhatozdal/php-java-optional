@@ -11,7 +11,7 @@ Usage
 =======
 ```php
 // ofEmpty refers Optional#empty() in java
-// It renamed as ofEmpty() because of empty() is reserved in PHP 
+// It is renamed as ofEmpty() because of empty() is reserved by PHP 
 Optional::ofEmpty()->isPresent(); // false
 
 Optional::of("value")->orElse("elseValue"); // value
