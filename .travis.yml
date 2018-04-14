@@ -7,4 +7,4 @@ php:
   - 7.2
 
 script:
-  - vendor/bin/phpunit
+  - phpunit
