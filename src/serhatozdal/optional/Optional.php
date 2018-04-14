@@ -88,7 +88,7 @@ final class Optional
     private static function requireNonNull($obj)
     {
         if ($obj === null)
-            throw new InvalidArgumentException("variable can not be null!!");
+            throw new \InvalidArgumentException("variable can not be null!!");
         return $obj;
     }
 
