@@ -47,26 +47,21 @@ final class Optional
     {
         if (!$this->isPresent())
             return $this;
-        else
-            return $predicate($this->value) ? $this : self::ofEmpty();
+        return $predicate($this->value) ? $this : self::ofEmpty();
     }
 
     public function map(callable $mapper)
     {
-        self::requireNonNull($mapper);
         if (!$this->isPresent())
             return self::ofEmpty();
-        else
-            return self::ofNullable($mapper($this->value));
+        return self::ofNullable($mapper($this->value));
     }
 
     public function flatMap(callable $mapper)
     {
-        self::requireNonNull($mapper);
         if (!$this->isPresent())
             return self::ofEmpty();
-        else
-            return self::requireNonNull($mapper($this->value));
+        return self::requireNonNull($mapper($this->value));
     }
 
     public function orElse($other)
