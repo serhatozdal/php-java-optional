@@ -20,6 +20,13 @@ Optional::of(5)->map(function ($a) { return $a * 2; })->get(); // returns 10
 Optional::ofEmpty()->orElseGet(function () { return 10; }); // returns 10
 ```
 
+Installation
+=======
+```sh
+composer require serhatozdal/php-java-optional:1.0
+```
+
+
 Resources
 =======
 * [Java 8 Optional Documentation](https://docs.oracle.com/javase/8/docs/api/java/util/Optional.html)
