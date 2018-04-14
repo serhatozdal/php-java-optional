@@ -2,6 +2,10 @@
 
 Full implementation of JAVA8 Optional for PHP
 
+[![Latest Stable Version](https://poser.pugx.org/serhatozdal/php-java-optional/v/stable)](https://packagist.org/packages/serhatozdal/php-java-optional)
+[![Latest Unstable Version](https://poser.pugx.org/serhatozdal/php-java-optional/v/unstable)](https://packagist.org/packages/serhatozdal/php-java-optional)
+[![GitHub license](https://img.shields.io/github/license/serhatozdal/php-java-optional.svg)](https://github.com/serhatozdal/php-java-optional/blob/master/LICENSE)
+
 Usage
 =======
 ```php
