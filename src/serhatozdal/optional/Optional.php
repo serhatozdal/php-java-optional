@@ -45,7 +45,6 @@ final class Optional
 
     public function filter(callable $predicate)
     {
-        self::ofNullable($predicate);
         if (!$this->isPresent())
             return $this;
         else
